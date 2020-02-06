@@ -1,15 +1,15 @@
 {
-  "name": "wallstreet",
+  "name": "cryptostreet",
   "version": "1.0.4",
   "description": "Stock quotes and charts for the terminal",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon index.js",
-    "lint":  "eslint index.js"
+    "lint": "eslint index.js"
   },
   "bin": {
-    "wallstreet": "index.js"
+    "cryptostreet": "index.js"
   },
   "author": "",
   "license": "ISC",

@@ -66,7 +66,7 @@ const percentage   = i => (i * 100).toFixed(2) + '%'
 const humanString  = i => i ? toHumanString(i).replace('G','B') : null
 const [red, green] = [pipe(pad, chalk.red), pipe(pad, chalk.green)]
 
-const config = new Configstore('wallstreet', watchlist)
+const config = new Configstore('cryptostreet', watchlist)
 
 const colNames = [('Symbol').padEnd(COL_PAD)].concat(
     ['Price', 'Change', 'Change%', 'AvgVolume', 'P/E',
